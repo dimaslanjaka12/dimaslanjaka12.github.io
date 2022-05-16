@@ -1,5 +1,5 @@
 import { extract } from 'article-parser';
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import gulp from 'gulp';
 import md5 from 'md5';
 import Parser from 'rss-parser';
@@ -13,7 +13,7 @@ const configYmlRead = readFileSync(configYml, 'utf-8');
 const config: typeof configData = yaml.parse(configYmlRead);
 writeFileSync(join(__dirname, 'src/types/_config.json'), JSON.stringify(config, null, 2));
 const destDir = join(__dirname, config.source_dir, '_posts');
-if (existsSync(destDir)) rmSync(destDir, { recursive: true });
+//if (existsSync(destDir)) rmSync(destDir, { recursive: true });
 if (!existsSync(destDir)) mkdirSync(destDir);
 
 gulp.task('parse', async () => {
