@@ -68,11 +68,12 @@ gulp.task('parse', async () => {
           if (article.image) post.metadata.thumbnail = post.metadata.cover = article.image;
           post.body = `${readMore} ${article.title} - ${article.description} ${item['content:encodedSnippet']} ${readMore}`;
         }
+      } catch (error) {
+        console.log(error);
+      } finally {
         buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}`;
         const saveTo = join(destDir, md5(parseUrl.pathname) + '.md');
         writeFileSync(saveTo, buildPost);
-      } catch (error) {
-        console.log(error);
       }
     }
   }
