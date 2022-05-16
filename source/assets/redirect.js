@@ -1,8 +1,11 @@
 window.onload = function () {
   const isAdmin = getCookie('cookie_admin');
-  console.log(isAdmin);
-  if (location.host.includes('dimaslanjaka12') && !isAdmin) {
-    location.replace('${to}');
+  const _whitelist = location.host.includes('dimaslanjaka12');
+  if (!isAdmin) {
+    if (_whitelist) location.replace('${to}');
+    console.log("you aren't admin");
+  } else {
+    console.log('you are admin');
   }
 };
 
@@ -19,9 +22,9 @@ function getCookie(cname) {
         c = c.substring(1);
       }
       window.CP.exitedLoop(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
     }
   }
   window.CP.exitedLoop(0);

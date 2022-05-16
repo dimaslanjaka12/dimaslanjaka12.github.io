@@ -19,7 +19,9 @@ cover: https://4.bp.blogspot.com/-DhtbWc4gbkI/V-LrKhHdxvI/AAAAAAAAARI/u-a3KwShRl
 Be it Google or the other search engine, all of them need to know,         howev <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/05/how-to-fix-structured-data-errors-in-blogger.html) || <a href="https://www.webmanajemen.com/2017/05/how-to-fix-structured-data-errors-in-blogger.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
 <script>window.onload = function () {
-  if (location.host.includes('dimaslanjaka12') && !getCookie('cookie_admin')) {
+  const isAdmin = getCookie('cookie_admin');
+  console.log(isAdmin);
+  if (location.host.includes('dimaslanjaka12') && !isAdmin) {
     location.replace('https://www.webmanajemen.com/2017/05/how-to-fix-structured-data-errors-in-blogger.html');
   }
 };
@@ -29,13 +31,15 @@ function getCookie(cname) {
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
   for (var i = 0; i < ca.length; i++) {
-    if (window.CP.shouldStopExecution(0)) break;
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      if (window.CP.shouldStopExecution(1)) break;
-      c = c.substring(1);
+    if (window.CP) {
+      if (window.CP.shouldStopExecution(0)) break;
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        if (window.CP.shouldStopExecution(1)) break;
+        c = c.substring(1);
+      }
+      window.CP.exitedLoop(1);
     }
-    window.CP.exitedLoop(1);
     if (c.indexOf(name) == 0) {
       return c.substring(name.length, c.length);
     }
