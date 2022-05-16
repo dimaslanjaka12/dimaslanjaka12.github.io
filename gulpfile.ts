@@ -1,3 +1,4 @@
+import { extract } from 'article-parser';
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'fs';
 import gulp from 'gulp';
 import md5 from 'md5';
@@ -45,15 +46,34 @@ gulp.task('parse', async () => {
     } else if (item.pubDate) {
       post.metadata.date = post.metadata.updated = item.pubDate;
     }
-    if (item.link) {
-      post.metadata.url = item.link;
-      post.body =
-        item['content:encodedSnippet'] +
-        `<hr/> <a href="${item.link}" rel="follow" class="button" id="read-more">Read More</a>`;
-      const buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}`;
-      const parseUrl = new URL(item.link);
-      const saveTo = join(destDir, md5(parseUrl.pathname) + '.md');
-      if (item.title.toLowerCase().includes('xampp')) writeFileSync(saveTo, buildPost);
-    }
+    if (item.title.toLowerCase().includes('xampp'))
+      if (item.link) {
+        const readMore = `<hr/> <a href="${item.link}" rel="follow" class="button" id="read-more">Read More</a> <hr/>`;
+        let buildPost = '';
+        try {
+          const article = await extract(item.link);
+          if (!article) {
+            console.log(`cannot parse article from ${item.link}`);
+            buildPost = `${item['content:encodedSnippet']} ${readMore}`;
+            const parseUrl = new URL(item.link);
+            const saveTo = join(destDir, md5(parseUrl.pathname) + '.md');
+            writeFileSync(saveTo, buildPost);
+            return;
+          }
+          if (article.description) post.metadata.description = article.description;
+          if (article.title) post.metadata.title = article.title;
+          if (article.published) post.metadata.date = article.published;
+          if (article.author) post.metadata.author = article.author;
+          post.metadata.url = item.link;
+
+          post.body = `${article.title} - ${article.description} ${item['content:encodedSnippet']} ${readMore}`;
+          buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}`;
+          const parseUrl = new URL(item.link);
+          const saveTo = join(destDir, md5(parseUrl.pathname) + '.md');
+          writeFileSync(saveTo, buildPost);
+        } catch (error) {
+          console.log(error);
+        }
+      }
   }
 });
