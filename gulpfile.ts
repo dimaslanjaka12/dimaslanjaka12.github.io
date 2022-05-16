@@ -63,7 +63,9 @@ gulp.task('parse', async () => {
           if (article.title) post.metadata.title = article.title;
           if (article.published) post.metadata.date = article.published;
           if (article.author) post.metadata.author = article.author;
-
+          if (article.image) {
+            console.log(article.image);
+          }
           post.body = `${readMore} ${article.title} - ${article.description} ${item['content:encodedSnippet']} ${readMore}`;
         }
         buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}`;
