@@ -14,7 +14,8 @@ cover: https://www.shoutmeloud.com/wp-content/uploads/2012/03/Increase-Adsense-R
 
 Saya tidak akan berbicara tentang mengapa adsense adalah program periklanan terbaik , karena bahkan posting beberapa alternatif adsense terba <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/04/46-cara-untuk-meningkatkan-pendapatan.html) || <a href="https://www.webmanajemen.com/2017/04/46-cara-untuk-meningkatkan-pendapatan.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>window.onload = function () {
+<script>document.addEventListener('DOMContentLoaded', function () {
+  //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
   if (!isAdmin) {
@@ -23,7 +24,7 @@ Saya tidak akan berbicara tentang mengapa adsense adalah program periklanan ter
   } else {
     console.log('you are admin');
   }
-};
+});
 
 /**
  * get cookie by key

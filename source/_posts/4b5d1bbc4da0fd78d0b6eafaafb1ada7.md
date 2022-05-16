@@ -13,33 +13,31 @@ cover: https://res.cloudinary.com/dimaslanjaka/image/fetch/https://lh6.googleuse
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html) || <a href="https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Cara ping mesin pencari dengan curl - Ketika Anda menambahkan cerita baru atau memperbarui yang sudah ada, mungkin perlu beberapa minggu bagi bot mesin pencari untuk mengindeks ulang situs... Ketika Anda menambahkan cerita baru atau memperbarui yang sudah ada, mungkin perlu beberapa minggu bagi bot mesin pencari untuk mengindeks ulang situs Anda, namun saya mengetahui bahwa beberapa situs  <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html) || <a href="https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>window.onload = function () {
+<script>document.addEventListener('DOMContentLoaded', function () {
+  //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
-  console.log(isAdmin);
-  if (location.host.includes('dimaslanjaka12') && !isAdmin) {
-    location.replace('https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html');
+  const _whitelist = location.host.includes('dimaslanjaka12');
+  if (!isAdmin) {
+    if (_whitelist) location.replace('https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html');
+    console.log("you aren't admin");
+  } else {
+    console.log('you are admin');
   }
-};
+});
 
-function getCookie(cname) {
-  var name = cname + '=';
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
+/**
+ * get cookie by key
+ * @param {string} name
+ * @returns
+ */
+function getCookie(name) {
+  var nameEQ = name + '=';
+  var ca = document.cookie.split(';');
   for (var i = 0; i < ca.length; i++) {
-    if (window.CP) {
-      if (window.CP.shouldStopExecution(0)) break;
-      var c = ca[i];
-      while (c.charAt(0) == ' ') {
-        if (window.CP.shouldStopExecution(1)) break;
-        c = c.substring(1);
-      }
-      window.CP.exitedLoop(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
   }
-  window.CP.exitedLoop(0);
   return null;
 }
 </script>

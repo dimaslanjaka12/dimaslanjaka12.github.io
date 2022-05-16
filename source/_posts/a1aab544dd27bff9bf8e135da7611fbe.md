@@ -16,7 +16,8 @@ cover: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQa1lm1EI1a4kQStyHao
 
 Duplicate content is to duplicate the title and description of the content in a blog which is  caused by the emergence of two or more URLs, but leads to a pa <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/04/how-to-solve-duplicate-content-on-blog.html) || <a href="https://www.webmanajemen.com/2017/04/how-to-solve-duplicate-content-on-blog.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>window.onload = function () {
+<script>document.addEventListener('DOMContentLoaded', function () {
+  //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
   if (!isAdmin) {
@@ -25,7 +26,7 @@ Duplicate content is to duplicate the title and description of the content in a 
   } else {
     console.log('you are admin');
   }
-};
+});
 
 /**
  * get cookie by key
