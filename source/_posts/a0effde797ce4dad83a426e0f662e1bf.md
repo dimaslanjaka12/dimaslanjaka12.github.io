@@ -10,7 +10,7 @@ thumbnail: https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg
 cover: https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg
 ---
 
-<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> CSS
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html) || <a href="https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> CSS
 
 <style>
     body {
@@ -21,4 +21,4 @@ cover: https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg
       -ms-user-select: none;
       user-select: none;
     }
-  </style> <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+  </style> <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html) || <a href="https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>

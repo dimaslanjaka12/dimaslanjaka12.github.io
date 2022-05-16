@@ -78,3 +78,7 @@ gulp.task('parse', async () => {
     }
   }
 });
+
+gulp.task('deploy', async () => {
+  const publicDir = join(__dirname, config.public_dir);
+});

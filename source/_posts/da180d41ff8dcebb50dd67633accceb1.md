@@ -10,7 +10,7 @@ thumbnail: https://imgcdn.000webhostapp.com/https/2.bp.blogspot.com/7aeda14f80b8
 cover: https://imgcdn.000webhostapp.com/https/2.bp.blogspot.com/7aeda14f80b89ac1a96fdf5e6b7e6076.jpeg
 ---
 
-<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Calm Clouds v1 New HD Clouds GTA SA Mobile - Calm Clouds v New HD Clouds GTA SA Mobile Mod yang akan mengubah awan lama GTA San Andreas Mobile menjadi awan baru berkualitas tinggi. Calm Clouds v1 New HD Clouds GTA SA Mobile 
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html) || <a href="https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Calm Clouds v1 New HD Clouds GTA SA Mobile - Calm Clouds v New HD Clouds GTA SA Mobile Mod yang akan mengubah awan lama GTA San Andreas Mobile menjadi awan baru berkualitas tinggi. Calm Clouds v1 New HD Clouds GTA SA Mobile 
 
 
 
@@ -53,4 +53,4 @@ cover: https://imgcdn.000webhostapp.com/https/2.bp.blogspot.com/7aeda14f80b89ac1
   • Jalankan game dan nikmati mod. 
  
  
-  Tangkapan layar: <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+  Tangkapan layar: <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html) || <a href="https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
