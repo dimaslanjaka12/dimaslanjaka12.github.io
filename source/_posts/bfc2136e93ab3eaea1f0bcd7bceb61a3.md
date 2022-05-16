@@ -10,7 +10,7 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_av
 cover: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png
 ---
 
-<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/07/jquery-tutorial-auto-hyperlinking.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> JQuery Tutorial Auto Hyperlinking Plaintext URL - Links are found in nearly all web pages. Links allow users to click their way from page to page. Links are found in nearly all web pages. Links allow users to click their way from page to page.
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/jquery-tutorial-auto-hyperlinking.html) || <a href="https://www.webmanajemen.com/2017/07/jquery-tutorial-auto-hyperlinking.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> JQuery Tutorial Auto Hyperlinking Plaintext URL - Links are found in nearly all web pages. Links allow users to click their way from page to page. Links are found in nearly all web pages. Links allow users to click their way from page to page.
 
 HTML Links - Hyperlinks
 HTML links are hyperlinks.
@@ -63,4 +63,4 @@ Check out http://8elite.com and follow us
 Look ma! no links http://en.8elite.com
 // Check the main container is ready $('#feed').ready(function(){     // Get each div     $('.content').each(function(){         // Get the content         var str = $(this).html();         // Set the regex string         var regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\/_\.]*(\?\S+)?)?)?)/ig         // Replace plain text links by hyperlinks         var replaced_text = str.replace(regex, "$1");         // Echo link         $(this).html(replaced_text);     }); }); 
 
-Or See this full codes on: JsFiddle <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/07/jquery-tutorial-auto-hyperlinking.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+Or See this full codes on: JsFiddle <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/jquery-tutorial-auto-hyperlinking.html) || <a href="https://www.webmanajemen.com/2017/07/jquery-tutorial-auto-hyperlinking.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>

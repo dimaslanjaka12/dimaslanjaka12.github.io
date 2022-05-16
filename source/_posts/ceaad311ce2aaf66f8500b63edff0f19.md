@@ -10,7 +10,7 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_av
 cover: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2020/01/simple-prismjs.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Simple PrismJS - Simple PrismJS Syntax Highlighter pre> <code> Not Single Usage: <pre><code>code block</code></pre> <h3>Welcome to the real-time Simple PrismJS Syntax Highlighter
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2020/01/simple-prismjs.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Simple PrismJS - Simple PrismJS Syntax Highlighter pre> <code> Not Single Usage: <pre><code>code block</code></pre> <h3>Welcome to the real-time Simple PrismJS Syntax Highlighter
     
 <pre> <code> (Not Single)
   
@@ -470,4 +470,4 @@ Zig - zig
       
     
     
-Couldn't find the language you were looking for? Request it! <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2020/01/simple-prismjs.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+Couldn't find the language you were looking for? Request it! <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2020/01/simple-prismjs.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>

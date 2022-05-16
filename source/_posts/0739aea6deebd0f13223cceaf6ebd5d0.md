@@ -10,7 +10,7 @@ thumbnail: http://www.larnr.com/wp-content/uploads/2015/05/resize-crop-1024x535.
 cover: http://www.larnr.com/wp-content/uploads/2015/05/resize-crop-1024x535.jpg
 ---
 
-<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> How To Resize and Crop Image to fit Container div using CodeIgniter and jQuery - When we have a tendency to visit the gallery page of an internet site we primarily see there area unit varieties of image for a selected Resize and Crop Image to fit Container div using CodeIgniter and jQuery
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html) || <a href="https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> How To Resize and Crop Image to fit Container div using CodeIgniter and jQuery - When we have a tendency to visit the gallery page of an internet site we primarily see there area unit varieties of image for a selected Resize and Crop Image to fit Container div using CodeIgniter and jQuery
 
 
 
@@ -456,4 +456,4 @@ Thumbnail picture in the wake of editing the picture. 
 Presently, you know how to edit a picture flawlessly for your exhibition. 
 So. upbeat Coding.
 
-.thumb-post{text-align:center;margin:0;padding:0;width:100%} .thumb-post amp-img{width:100%;max-width:100%;height:auto;min-height:450px;max-height:600px;margin:0} <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+.thumb-post{text-align:center;margin:0;padding:0;width:100%} .thumb-post amp-img{width:100%;max-width:100%;height:auto;min-height:450px;max-height:600px;margin:0} <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html) || <a href="https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>

@@ -11,7 +11,7 @@ thumbnail: https://www.tutorial-webdesign.com/wp-content/uploads/2015/01/12.png
 cover: https://www.tutorial-webdesign.com/wp-content/uploads/2015/01/12.png
 ---
 
-<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> How to Multiple Delete With CodeIgniter - Posted on August 29, 2017 8:38 PM by Unknown Wordpress CodeIgniter Uncategorized In this tutorial I will discuss about how to create Multiple Delete With... In this tutorial I will discuss about how to create    Multiple Delete With CodeIgniter , If you guys often use     wordpress definitely friends will know, because wordpress apply this in     their system. 
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html) || <a href="https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> How to Multiple Delete With CodeIgniter - Posted on August 29, 2017 8:38 PM by Unknown Wordpress CodeIgniter Uncategorized In this tutorial I will discuss about how to create Multiple Delete With... In this tutorial I will discuss about how to create    Multiple Delete With CodeIgniter , If you guys often use     wordpress definitely friends will know, because wordpress apply this in     their system. 
 First prepare your codeigniter folder named    delete_multiple, Here I assume friends already know how to     setup             initial CodeIgniter         like config.php, autoload.php dll, database.php. We will use the Controller     welcome.php default is Codeigniter or at least have followed             the basic tutorial of the use of Codeigniter         . 
 Read Also:            CRUD Tutorial (Create, Read, Update and Delete) With CodeIgniter - Part         1         &             Part 2     
 Next create a database codeigniter_crud , create a    student table like the following conditions below sqlnya: 
@@ -54,4 +54,4 @@ After completing all the above discussion, you can directly try the program     
             
 Okay, so my tutorial this time about Multiple Delete With Codeigniter.     
 Hope can increase knowledge of Friends: D: D 
-Download Tutorial <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+Download Tutorial <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html) || <a href="https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
