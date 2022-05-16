@@ -29,7 +29,8 @@ gulp.task('parse', async () => {
         url: '',
         date: String(new Date()),
         updated: String(new Date()),
-        photos: []
+        thumbnail: 'https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg',
+        cover: 'https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg'
       },
       body: ''
     };
@@ -64,7 +65,7 @@ gulp.task('parse', async () => {
           if (article.title) post.metadata.title = article.title;
           if (article.published) post.metadata.date = article.published;
           if (article.author) post.metadata.author = article.author;
-          if (article.image) post.metadata.photos.push(article.image);
+          if (article.image) post.metadata.thumbnail = post.metadata.cover = article.image;
           post.body = `${readMore} ${article.title} - ${article.description} ${item['content:encodedSnippet']} ${readMore}`;
         }
         buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}`;

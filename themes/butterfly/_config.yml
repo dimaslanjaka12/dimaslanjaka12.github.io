@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-  # Home: / || fas fa-home
+  Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
@@ -35,8 +35,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/dimaslanjaka || Github
+  fas fa-envelope: mailto:dimaslanjaka@gmail.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -76,7 +76,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /favicon.ico
 
 # Avatar (頭像)
 avatar:
@@ -412,7 +412,7 @@ baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: UA-106238155-1
 
 # CNZZ Analytics
 # https://www.umeng.com/
@@ -431,10 +431,10 @@ microsoft_clarity:
 
 # Google Adsense (谷歌廣告)
 google_adsense:
-  enable: false
+  enable: true
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client:
+  client: pub-1165447249910969
   enable_page_level_ads: true
 
 # Insert ads manually (手動插入廣告)
@@ -629,7 +629,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/dimaslanjaka
   card_announcement:
     enable: true
     content: This is my Blog
