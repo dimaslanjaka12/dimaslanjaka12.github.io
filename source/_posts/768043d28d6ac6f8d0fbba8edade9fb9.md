@@ -10,7 +10,7 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_av
 cover: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/get-first-post-wordpress-tutorial.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Get first post WORDPRESS tutorial - Edit your functions.php of your themes. This also work on amp plugin wp AMP ninja -gt; Edit on functions.php too. <br /><h3>Codes Edit your functions.php of your themes. This also work on amp plugin (wp AMP ninja) -> Edit on functions.php too. 
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/get-first-post-wordpress-tutorial.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Get first post WORDPRESS tutorial - Edit your functions.php of your themes. This also work on amp plugin wp AMP ninja -gt; Edit on functions.php too. <br /><h3>Codes Edit your functions.php of your themes. This also work on amp plugin (wp AMP ninja) -> Edit on functions.php too. 
 Codes 1:
 <?php
  /*
@@ -112,4 +112,4 @@ function my_image_display($size = 'full') {
  }
  return $image_url;
 }
-so Get first post WORDPRESS tutorial, hopefully useful. <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/get-first-post-wordpress-tutorial.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+so Get first post WORDPRESS tutorial, hopefully useful. <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/get-first-post-wordpress-tutorial.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>

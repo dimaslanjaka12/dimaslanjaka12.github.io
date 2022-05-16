@@ -9,7 +9,7 @@ thumbnail: http://botcrawl.com/wp-content/uploads/2012/04/toggle-arrow.png
 cover: http://botcrawl.com/wp-content/uploads/2012/04/toggle-arrow.png
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Cara Membuat Google AdSense Shortcodes Untuk WordPress - Membuat Google AdSense Shortcodes Untuk WordPress Membuat Google AdSense Shortcodes Untuk WordPress
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Cara Membuat Google AdSense Shortcodes Untuk WordPress - Membuat Google AdSense Shortcodes Untuk WordPress Membuat Google AdSense Shortcodes Untuk WordPress
 Banyak blog dan situs WordPress menghasilkan keuntungan secara online dengan mengintegrasikan iklan yang menggunakan program Google AdSense. Iklan Adsense Google ditulis dalam naskah java dan dapat ditempatkan di lokasi manapun yang berbunyi HTML, seperti halaman WordPRess, posts, theme files, dan text capable widgets.
  Skrip di bawah ini adalah contoh dari iklan seharga 200 x 200 Google AdSense.
 
@@ -31,4 +31,4 @@ function adsenseads() {
 }add_shortcode('adsense', 'adsenseads');
 
 Untuk menampilkan iklan Google Adsense gunakan shortcode: [adsense]
-Untuk membuat beberapa shortcodes iklan Google AdSense di WordPress hanya mengubah kata 'adsense' di baris terakhir kode functions.php . Saran adalah memberi label kode pendek untuk berbagai iklan. Misalnya 'adsense1' dan 'adsense2' akan membuat shortcode [adsense1] dan [adsense2] . Anda bahkan bisa memberi nama shortcode setelah judul iklan AdSense Anda. Ini adalah cara terbaik untuk melacak iklan Google AdSense Anda di WordPress jika Anda selalu menulis dan perlu menempatkan iklan yang dikonfigurasi dengan benar di beberapa ruang tertentu. <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+Untuk membuat beberapa shortcodes iklan Google AdSense di WordPress hanya mengubah kata 'adsense' di baris terakhir kode functions.php . Saran adalah memberi label kode pendek untuk berbagai iklan. Misalnya 'adsense1' dan 'adsense2' akan membuat shortcode [adsense1] dan [adsense2] . Anda bahkan bisa memberi nama shortcode setelah judul iklan AdSense Anda. Ini adalah cara terbaik untuk melacak iklan Google AdSense Anda di WordPress jika Anda selalu menulis dan perlu menempatkan iklan yang dikonfigurasi dengan benar di beberapa ruang tertentu. <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>

@@ -10,7 +10,7 @@ thumbnail: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQa1lm1EI1a4kQSt
 cover: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQa1lm1EI1a4kQStyHaoRq2LTQ3iHdj3CuE8YfEqS3-jKcycvJfOP44cSUy_A
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2017/04/how-to-solve-duplicate-content-on-blog.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> How To Solve Duplicate Content On Blog - How To Solve Duplicate Content On Blog Duplicate content is to duplicate the title and description of the content in a blog which is How To Solve Duplicate Content On Blog 
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/04/how-to-solve-duplicate-content-on-blog.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> How To Solve Duplicate Content On Blog - How To Solve Duplicate Content On Blog Duplicate content is to duplicate the title and description of the content in a blog which is How To Solve Duplicate Content On Blog 
 
 
 
@@ -72,4 +72,4 @@ Disallow: /? M = 0
 Disallow: / *? M = 1  
 Disallow: / *? M = 0  
 meaning your content will not be in the index in the mobile version that  causes a decrease in traffic to your blog.  
-Those are some ways to cope with duplicate content on your blog. <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2017/04/how-to-solve-duplicate-content-on-blog.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+Those are some ways to cope with duplicate content on your blog. <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2017/04/how-to-solve-duplicate-content-on-blog.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
