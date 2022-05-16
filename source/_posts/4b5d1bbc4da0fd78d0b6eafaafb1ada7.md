@@ -13,8 +13,29 @@ cover: https://res.cloudinary.com/dimaslanjaka/image/fetch/https://lh6.googleuse
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html) || <a href="https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Cara ping mesin pencari dengan curl - Ketika Anda menambahkan cerita baru atau memperbarui yang sudah ada, mungkin perlu beberapa minggu bagi bot mesin pencari untuk mengindeks ulang situs... Ketika Anda menambahkan cerita baru atau memperbarui yang sudah ada, mungkin perlu beberapa minggu bagi bot mesin pencari untuk mengindeks ulang situs Anda, namun saya mengetahui bahwa beberapa situs  <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html) || <a href="https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>
-    if (location.host.includes('dimaslanjaka12')) {
-      location.replace('https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html');
+<script>window.onload = function () {
+  if (location.host.includes('dimaslanjaka12') && !getCookie('cookie_admin')) {
+    location.replace('https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html');
+  }
+};
+
+function getCookie(cname) {
+  var name = cname + '=';
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    if (window.CP.shouldStopExecution(0)) break;
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      if (window.CP.shouldStopExecution(1)) break;
+      c = c.substring(1);
     }
-  </script>
+    window.CP.exitedLoop(1);
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  window.CP.exitedLoop(0);
+  return null;
+}
+</script>

@@ -16,8 +16,29 @@ cover: http://www.larnr.com/wp-content/uploads/2015/05/resize-crop-1024x535.jpg
 
 When we have a tendency to visit the gallery page of an internet site we primarily see there area unit 2 varieties of image f <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html) || <a href="https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>
-    if (location.host.includes('dimaslanjaka12')) {
-      location.replace('https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html');
+<script>window.onload = function () {
+  if (location.host.includes('dimaslanjaka12') && !getCookie('cookie_admin')) {
+    location.replace('https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html');
+  }
+};
+
+function getCookie(cname) {
+  var name = cname + '=';
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    if (window.CP.shouldStopExecution(0)) break;
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      if (window.CP.shouldStopExecution(1)) break;
+      c = c.substring(1);
     }
-  </script>
+    window.CP.exitedLoop(1);
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  window.CP.exitedLoop(0);
+  return null;
+}
+</script>

@@ -13,8 +13,29 @@ cover: https://www.tutorial-webdesign.com/wp-content/uploads/2015/01/12.png
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html) || <a href="https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> How to Multiple Delete With CodeIgniter - Posted on August 29, 2017 8:38 PM by Unknown Wordpress CodeIgniter Uncategorized In this tutorial I will discuss about how to create Multiple Delete With... In this tutorial I will discuss about how to create    Multiple Delete With CodeIgniter , If you guys often use     wordpress definitely friends will know, because wordpress apply this in     their sy <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html) || <a href="https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>
-    if (location.host.includes('dimaslanjaka12')) {
-      location.replace('https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html');
+<script>window.onload = function () {
+  if (location.host.includes('dimaslanjaka12') && !getCookie('cookie_admin')) {
+    location.replace('https://www.webmanajemen.com/2017/08/how-to-multiple-delete-with-codeigniter.html');
+  }
+};
+
+function getCookie(cname) {
+  var name = cname + '=';
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    if (window.CP.shouldStopExecution(0)) break;
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      if (window.CP.shouldStopExecution(1)) break;
+      c = c.substring(1);
     }
-  </script>
+    window.CP.exitedLoop(1);
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  window.CP.exitedLoop(0);
+  return null;
+}
+</script>
