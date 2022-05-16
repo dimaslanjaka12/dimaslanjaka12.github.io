@@ -50,7 +50,7 @@ gulp.task('parse', async () => {
     }
     //if (item.title.toLowerCase().includes('xampp'))
     if (item.link) {
-      const readMore = `<hr/> Skip to Full Contents <a href="${item.link}" rel="follow" class="button" id="read-more">Read More</a> <hr/>`;
+      const readMore = `<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="${item.link}" rel="follow" class="button" id="read-more">Read More</a> <hr/>`;
       const parseUrl = new URL(item.link);
       let buildPost = '';
       post.metadata.url = item.link;
