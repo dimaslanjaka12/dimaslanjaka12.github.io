@@ -51,3 +51,10 @@ index_generator:
 ## Themes: https://hexo.io/themes/
 ## https://github.com/jerryc127/hexo-theme-butterfly
 theme: butterfly
+
+# https://hexo.io/docs/one-command-deployment#content-inner
+deploy:
+  type: git
+  repo: https://github.com/dimaslanjaka12/dimaslanjaka12.github.io
+  branch: gh-pages
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
