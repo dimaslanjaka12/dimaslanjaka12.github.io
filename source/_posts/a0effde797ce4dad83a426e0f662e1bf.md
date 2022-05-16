@@ -19,6 +19,10 @@ cover: https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg
       -khtml-user-select: none;
       -moz-user-select: none;
       -ms-user-select: none;
-      user-select: none;
+      user-select <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html) || <a href="https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
+
+<script>
+    if (location.host.includes('dimaslanjaka12')) {
+      location.replace('https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html');
     }
-  </style> <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html) || <a href="https://www.webmanajemen.com/2019/09/disable-mouse-dragging-css-js.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
+  </script>

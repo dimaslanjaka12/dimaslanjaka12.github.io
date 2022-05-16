@@ -22,47 +22,10 @@ cover: https://imgcdn.000webhostapp.com/https/img.youtube.com/9801fdd072de1759bd
   Download Mp3 Server 1 
 
   Download Mp3 Server 2 
-  Download Server 3 
+  Down <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/download-lagu-armada-hargai-aku-mp3.html) || <a href="https://www.webmanajemen.com/2019/12/download-lagu-armada-hargai-aku-mp3.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-
-  Google Drive   Google Drive 1 
-  Google Drive 2 
-  Google Drive 3 
-  Google Drive 4 
-  Google Drive 5 
-  Google Drive 6 
-  Google Drive 7 
-
-
-                             
-Lirik Armada - Hargai Aku:
-                             
-Seringkali kau merendahkanku
-  Melihat dengan sebelah matamu
-  Aku bukan siapa-siapa
-  
-  Selalu saja kau anggap ku lemah
-  Merasa hebat dengan yang kau punya
-  Kau sombongkan itu semua
-  
-  Coba kau lihat dirimu dahulu
-  Sebelum kau nilai kurangnya diriku
-  Apa salahnya hargai diriku
-  Sebelum kau nilai siapa diriku
-  
-  Sering kali (sering kali) kau merendahkanku (kau merendahkanku)
-  Melihat dengan sebelah matamu
-  Aku bukan siapa-siapa
-  
-  Coba kau lihat dirimu dahulu
-  Sebelum kau nilai kurangnya diriku
-  Apa salahnya hargai diriku
-  Sebelum kau nilai siapa diriku
-  
-  Coba kau lihat dirimu dahulu
-  Sebelum kau nilai kurangnya diriku
-  Apa salahnya hargai diriku
-  Sebelum kau nilai siapa diriku
-  Sebelum kau nilai… siapa diriku                                 
-                                 
-                             Download Lagu Gratis Armada - Hargai Aku di Gudang Lagu , Download Lagu Armada - Hargai Aku Mp3 - Lagu Terbaru.                                                         Download Lagu Armada ,  Download Lagu  Hargai Aku,  Download Lagu  Hargai Aku Armada <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/download-lagu-armada-hargai-aku-mp3.html) || <a href="https://www.webmanajemen.com/2019/12/download-lagu-armada-hargai-aku-mp3.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
+<script>
+    if (location.host.includes('dimaslanjaka12')) {
+      location.replace('https://www.webmanajemen.com/2019/12/download-lagu-armada-hargai-aku-mp3.html');
+    }
+  </script>

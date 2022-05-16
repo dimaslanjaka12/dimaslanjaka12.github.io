@@ -22,38 +22,10 @@ cover: https://imgcdn.000webhostapp.com/https/img.youtube.com/1e7074d895048a029e
   Download Mp3 Server 1 
 
   Download Mp3 Server 2 
-  Download Server 3 
+  Download S <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/download-lagu-cosmic-sebuah-kisah-mp3.html) || <a href="https://www.webmanajemen.com/2019/12/download-lagu-cosmic-sebuah-kisah-mp3.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-
-  Google Drive   Google Drive 1 
-  Google Drive 2 
-  Google Drive 3 
-  Google Drive 4 
-  Google Drive 5 
-  Google Drive 6 
-  Google Drive 7 
-
-
-                             
-Lirik Cosmic - Sebuah Kisah:
-                             
-Terpejam membayangkan dirimu
-  Yang kini pergi bersama kenangan
-  
-  [*]
-  Berjalan walau tak terkendali
-  Sulit terima semua yang terjadi
-  
-  Apa bila ini akhir
-  Dari semua kisah kita
-  Yang kau inginkan
-  
-  Reff:
-  Keputusanmu menghancurkan mimpi indahku dan juga hatiku
-  Jujur tak mampu ku menepis s'mua luka yang t'lah kau berikan untukku
-  
-  Back to [*]
-  
-  Back to Reff:                                 
-                                 
-                             Download Lagu Gratis Cosmic - Sebuah Kisah di Gudang Lagu , Download Lagu Cosmic - Sebuah Kisah Mp3 - Lagu Terbaru.                                                         Download Lagu Cosmic ,  Download Lagu  Sebuah Kisah,  Download Lagu  Sebuah Kisah Cosmic <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/download-lagu-cosmic-sebuah-kisah-mp3.html) || <a href="https://www.webmanajemen.com/2019/12/download-lagu-cosmic-sebuah-kisah-mp3.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
+<script>
+    if (location.host.includes('dimaslanjaka12')) {
+      location.replace('https://www.webmanajemen.com/2019/12/download-lagu-cosmic-sebuah-kisah-mp3.html');
+    }
+  </script>

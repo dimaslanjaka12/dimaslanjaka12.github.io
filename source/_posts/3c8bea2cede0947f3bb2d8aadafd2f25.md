@@ -22,24 +22,10 @@ cover: https://imgcdn.000webhostapp.com/https/img.youtube.com/1514e477dae70eb7cf
   Download Mp3 Server 1 
 
   Download Mp3 Server 2 
-  Download Server 3 
-  Play / Stream [3.28 MB] Download Song GIGI - Kota Santri MP3 - FREE Fast Easy Online 
-  Download MP3 Server 4 
+  Downloa <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/11/download-lagu-gigi-kota-santri-mp3_24.html) || <a href="https://www.webmanajemen.com/2019/11/download-lagu-gigi-kota-santri-mp3_24.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-
-                             
-Lirik Gigi - Kota Santri:
-                             
- Suasana di kota santri 
- Asik senangkan hati 
- Suasana di kota santri 
- Asik senangkan hati 
- Chorus: 
- Tiap pagi dan sore hari 
- Muda mudi berbusana rapi 
- Menyandang kitab suci 
- Hilir mudik silih berganti 
- Pulang pergi mengaji 
- Pulang pergi mengaji 
-                         
-  Download GIGI Songs - Kota Santri in the Song Warehouse, Download GIGI Songs - Kota Santri Mp3 - Latest Songs.  Download GIGI Songs, Download City Santri Songs, Download City Santri GIGI Songs <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/11/download-lagu-gigi-kota-santri-mp3_24.html) || <a href="https://www.webmanajemen.com/2019/11/download-lagu-gigi-kota-santri-mp3_24.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
+<script>
+    if (location.host.includes('dimaslanjaka12')) {
+      location.replace('https://www.webmanajemen.com/2019/11/download-lagu-gigi-kota-santri-mp3_24.html');
+    }
+  </script>
