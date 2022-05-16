@@ -28,7 +28,8 @@ gulp.task('parse', async () => {
         author: 'dimaslanjaka@gmail.com (Dimas lanjaka)',
         url: '',
         date: String(new Date()),
-        updated: String(new Date())
+        updated: String(new Date()),
+        photos: []
       },
       body: ''
     };
@@ -63,9 +64,7 @@ gulp.task('parse', async () => {
           if (article.title) post.metadata.title = article.title;
           if (article.published) post.metadata.date = article.published;
           if (article.author) post.metadata.author = article.author;
-          if (article.image) {
-            console.log(article.image);
-          }
+          if (article.image) post.metadata.photos.push(article.image);
           post.body = `${readMore} ${article.title} - ${article.description} ${item['content:encodedSnippet']} ${readMore}`;
         }
         buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}`;
