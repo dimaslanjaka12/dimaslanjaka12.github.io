@@ -13,8 +13,29 @@ cover: https://imgcdn.000webhostapp.com/https/2.bp.blogspot.com/514cc0b2c6a50437
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/complete-external-link-immediately-with.html) || <a href="https://www.webmanajemen.com/2019/12/complete-external-link-immediately-with.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Complete the External Link immediately with the Noopener Rail - If you add an external link in the template or in the post and use the target_blank attribute, then immediately complete the If you add an external link in the template or in the post and use the target="_blank" attribute, then immediately complete the rel="noopener" on the links. 
   Looks like this is still not much known  <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/complete-external-link-immediately-with.html) || <a href="https://www.webmanajemen.com/2019/12/complete-external-link-immediately-with.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>
-    if (location.host.includes('dimaslanjaka12')) {
-      location.replace('https://www.webmanajemen.com/2019/12/complete-external-link-immediately-with.html');
+<script>window.onload = function () {
+  if (location.host.includes('dimaslanjaka12') && !getCookie('cookie_admin')) {
+    location.replace('https://www.webmanajemen.com/2019/12/complete-external-link-immediately-with.html');
+  }
+};
+
+function getCookie(cname) {
+  var name = cname + '=';
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    if (window.CP.shouldStopExecution(0)) break;
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      if (window.CP.shouldStopExecution(1)) break;
+      c = c.substring(1);
     }
-  </script>
+    window.CP.exitedLoop(1);
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  window.CP.exitedLoop(0);
+  return null;
+}
+</script>
