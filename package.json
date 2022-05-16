@@ -29,6 +29,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
+    "md5": "^2.3.0",
     "yaml": "^2.1.0"
   },
   "private": true,
@@ -40,8 +41,15 @@
   },
   "devDependencies": {
     "@types/gulp": "^4.0.9",
+    "@types/md5": "^2.3.2",
     "@types/node": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "gulp": "^4.0.2",
+    "prettier": "^2.6.2",
     "rss-parser": "^3.12.0",
     "ts-node": "^10.7.0",
     "tslib": "^2.4.0",

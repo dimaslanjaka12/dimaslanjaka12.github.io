@@ -1,0 +1,45 @@
+{
+  "title": "Sharing",
+  "subtitle": "A fast, simple & powerful blog framework powered by Node.js.",
+  "description": "Hexo is a fast, simple & powerful blog framework powered by Node.js.",
+  "author": "Dimas Lanjaka",
+  "language": "en",
+  "timezone": "Asia/Jakarta",
+  "url": "https://dimaslanjaka12.github.io",
+  "root": "/",
+  "permalink": ":title.html",
+  "new_post_name": ":title.md",
+  "post_asset_folder": true,
+  "pretty_urls": {
+    "trailing_index": true,
+    "trailing_html": true
+  },
+  "source_dir": "source",
+  "public_dir": "public",
+  "tag_dir": "tags",
+  "archive_dir": "archives",
+  "category_dir": "categories",
+  "code_dir": "downloads/code",
+  "i18n_dir": ":lang",
+  "highlight": {
+    "enable": true,
+    "line_number": false,
+    "auto_detect": false,
+    "tab_replace": "  ",
+    "wrap": false,
+    "hljs": false
+  },
+  "prismjs": {
+    "enable": false,
+    "preprocess": true,
+    "line_number": true,
+    "tab_replace": ""
+  },
+  "per_page": 0,
+  "index_generator": {
+    "path": "",
+    "per_page": 0,
+    "order_by": "-date"
+  },
+  "theme": "butterfly"
+}
