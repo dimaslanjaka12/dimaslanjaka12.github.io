@@ -17,6 +17,13 @@ const destDir = join(__dirname, config.source_dir, '_posts');
 if (!existsSync(destDir)) mkdirSync(destDir);
 
 gulp.task('parse', async () => {
+  const redirect = (to: string) => {
+    return `<script>
+    if (location.host.includes('dimaslanjaka12')) {
+      location.replace('${to}');
+    }
+  </script>`;
+  };
   const feed = await parser.parseURL('https://www.webmanajemen.com/rss.xml');
   //console.log(feed.title);
   for (let i = 0; i < feed.items.length; i++) {
@@ -71,7 +78,7 @@ gulp.task('parse', async () => {
       } catch (error) {
         console.log(error);
       } finally {
-        buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}`;
+        buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}\n\n${redirect(item.link)}`;
         const saveTo = join(destDir, md5(parseUrl.pathname) + '.md');
         writeFileSync(saveTo, buildPost);
       }
