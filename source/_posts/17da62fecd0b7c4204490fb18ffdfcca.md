@@ -12,33 +12,31 @@ cover: https://imgdb.net/images/3195.png
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html) || <a href="https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> How TRAFFIC INCREASE BLOG - When first mate to create a blog must have occurred in the mind of my friend, for what this blog will be created. Maybe at first just a When first mate to create a blog must have occurred in the mind of my friend, for what this blog will be created. Maybe at first just a hobby or sport. But with the passage of time may be buddies want <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html) || <a href="https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>window.onload = function () {
+<script>document.addEventListener('DOMContentLoaded', function () {
+  //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
-  console.log(isAdmin);
-  if (location.host.includes('dimaslanjaka12') && !isAdmin) {
-    location.replace('https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html');
+  const _whitelist = location.host.includes('dimaslanjaka12');
+  if (!isAdmin) {
+    if (_whitelist) location.replace('https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html');
+    console.log("you aren't admin");
+  } else {
+    console.log('you are admin');
   }
-};
+});
 
-function getCookie(cname) {
-  var name = cname + '=';
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
+/**
+ * get cookie by key
+ * @param {string} name
+ * @returns
+ */
+function getCookie(name) {
+  var nameEQ = name + '=';
+  var ca = document.cookie.split(';');
   for (var i = 0; i < ca.length; i++) {
-    if (window.CP) {
-      if (window.CP.shouldStopExecution(0)) break;
-      var c = ca[i];
-      while (c.charAt(0) == ' ') {
-        if (window.CP.shouldStopExecution(1)) break;
-        c = c.substring(1);
-      }
-      window.CP.exitedLoop(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
   }
-  window.CP.exitedLoop(0);
   return null;
 }
 </script>
