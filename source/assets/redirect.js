@@ -1,5 +1,7 @@
 window.onload = function () {
-  if (location.host.includes('dimaslanjaka12') && !getCookie('cookie_admin')) {
+  const isAdmin = getCookie('cookie_admin');
+  console.log(isAdmin);
+  if (location.host.includes('dimaslanjaka12') && !isAdmin) {
     location.replace('${to}');
   }
 };

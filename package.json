@@ -4,7 +4,7 @@
   "description": "sharer",
   "main": "index.js",
   "scripts": {
-    "build": "hexo generate",
+    "build": "gulp parse && git add source && git commit -m \"update posts\" && hexo generate && hexo deploy && gulp deploy",
     "format": "prettier -w tmp/*.html --parser html"
   },
   "repository": {
