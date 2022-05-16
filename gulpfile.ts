@@ -1,5 +1,5 @@
 import { extract } from 'article-parser';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
+import { existsSync, mkdirSync, PathLike, promises as FSP, readFileSync, writeFileSync } from 'fs';
 import gulp from 'gulp';
 import md5 from 'md5';
 import Parser from 'rss-parser';
@@ -81,4 +81,20 @@ gulp.task('parse', async () => {
 
 gulp.task('deploy', async () => {
   const publicDir = join(__dirname, config.public_dir);
+  const deployDir = join(__dirname, '.deploy_git');
+  await copyDir(publicDir, deployDir);
 });
+
+async function copyDir(src: PathLike, dest: PathLike) {
+  const entries = await FSP.readdir(src, { withFileTypes: true });
+  await FSP.mkdir(dest);
+  for (const entry of entries) {
+    const srcPath = join(src, entry.name);
+    const destPath = join(dest, entry.name);
+    if (entry.isDirectory()) {
+      await copyDir(srcPath, destPath);
+    } else {
+      await FSP.copyFile(srcPath, destPath);
+    }
+  }
+}
