@@ -61,19 +61,20 @@ gulp.task('parse', async () => {
       const parseUrl = new URL(item.link);
       let buildPost = '';
       post.metadata.url = item.link;
+      const snippet = item['content:encodedSnippet'].substring(0, 200);
       try {
         console.log(`extracting ${item.link}`);
         const article = await extract(item.link);
         if (!article) {
           console.log(`cannot parse ${item.link}`);
-          post.body = `${readMore} ${item['content:encodedSnippet']} ${readMore}`;
+          post.body = `${readMore} ${snippet} ${readMore}`;
         } else {
           if (article.description) post.metadata.description = article.description;
           if (article.title) post.metadata.title = article.title;
           if (article.published) post.metadata.date = article.published;
           if (article.author) post.metadata.author = article.author;
           if (article.image) post.metadata.thumbnail = post.metadata.cover = article.image;
-          post.body = `${readMore} ${article.title} - ${article.description} ${item['content:encodedSnippet']} ${readMore}`;
+          post.body = `${readMore} ${article.title} - ${article.description} ${snippet} ${readMore}`;
         }
       } catch (error) {
         console.log(error);
