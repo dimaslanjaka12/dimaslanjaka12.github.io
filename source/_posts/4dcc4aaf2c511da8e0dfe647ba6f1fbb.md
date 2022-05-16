@@ -11,7 +11,7 @@ thumbnail: https://www.w3programmers.com/wp-content/uploads/2012/07/regex.jpg
 cover: https://www.w3programmers.com/wp-content/uploads/2012/07/regex.jpg
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/RegExp/RegExp.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> What is RegExp - Posted on September 22, 2021 12:00 AM by Dimas Lanjaka RegExp Programming Regular Expression What Is Regular Expression ? Regular Expression (RegExp) a... ## What Is Regular Expression ?
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/RegExp/RegExp.html) || <a href="https://www.webmanajemen.com/RegExp/RegExp.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> What is RegExp - Posted on September 22, 2021 12:00 AM by Dimas Lanjaka RegExp Programming Regular Expression What Is Regular Expression ? Regular Expression (RegExp) a... ## What Is Regular Expression ?
 Regular Expression (RegExp) a sequence of symbols and characters expressing a string or pattern to be searched for within a longer piece of text. [Read More](https://en.wikipedia.org/wiki/Regular_expression)
 
 ## What can a regular expression be used for ?
@@ -46,4 +46,4 @@ A regular expression can be a single character, or a more complicated pattern. R
 
 - **Character classes — \d \w \s and .**
   | RegExp | Explanations |
-  | ------ | ------------ | <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/RegExp/RegExp.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+  | ------ | ------------ | <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/RegExp/RegExp.html) || <a href="https://www.webmanajemen.com/RegExp/RegExp.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>

@@ -9,7 +9,7 @@ thumbnail: https://www.webmanajemen.com/GitHub/workflows/events.png
 cover: https://www.webmanajemen.com/GitHub/workflows/events.png
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/GitHub/workflows-events.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> GitHub Workflow Events - Macam-macam events pada GitHub Workflows # Events yang memicu Github Workflow
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/GitHub/workflows-events.html) || <a href="https://www.webmanajemen.com/GitHub/workflows-events.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> GitHub Workflow Events - Macam-macam events pada GitHub Workflows # Events yang memicu Github Workflow
 Anda dapat mengkonfigurasi alur kerja Anda untuk berjalan saat aktivitas tertentu di GitHub terjadi, pada waktu yang dijadwalkan, atau saat peristiwa di luar GitHub terjadi.
 
 ## Contoh Menggunakan single event
@@ -83,4 +83,4 @@ on:
        - run: echo "First workflow was a failure"
 ```
 
-Artikel ini hanya untuk mempermudah pengguna dalam memahami GitHub Workflow. <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/GitHub/workflows-events.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+Artikel ini hanya untuk mempermudah pengguna dalam memahami GitHub Workflow. <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/GitHub/workflows-events.html) || <a href="https://www.webmanajemen.com/GitHub/workflows-events.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
