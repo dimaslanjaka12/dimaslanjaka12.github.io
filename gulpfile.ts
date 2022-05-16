@@ -93,6 +93,8 @@ gulp.task('deploy', async () => {
   await copyDir(publicDir, deployDir);
   const nojeklyy = join(deployDir, '.nojekyll');
   if (!existsSync(nojeklyy)) writeFileSync(nojeklyy, '');
+  const gitC = join(deployDir, '.git');
+  if (!existsSync(gitC)) writeFileSync(gitC, 'gitdir: ../.git/modules/.deploy_git');
 });
 
 async function copyDir(src: PathLike, dest: PathLike) {
