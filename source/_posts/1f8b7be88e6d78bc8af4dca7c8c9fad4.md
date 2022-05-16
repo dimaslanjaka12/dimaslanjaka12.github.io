@@ -9,7 +9,7 @@ thumbnail: https://res.cloudinary.com/dimaslanjaka/image/fetch/https://imgdb.net
 cover: https://res.cloudinary.com/dimaslanjaka/image/fetch/https://imgdb.net/images/4380.png
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2018/11/youtube-vanced-v134350-premium-pro-mod.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Youtube Vanced v.13.43.50 Premium Pro Mod Apk [NON-ROOT] - Youtube Vanced v.13.43.50 Premium Pro Mod Apk [NON-ROOT] Feature
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2018/11/youtube-vanced-v134350-premium-pro-mod.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Youtube Vanced v.13.43.50 Premium Pro Mod Apk [NON-ROOT] - Youtube Vanced v.13.43.50 Premium Pro Mod Apk [NON-ROOT] Feature
 
 Play Background
 Faster Buffering videos
@@ -65,4 +65,4 @@ Download Youtube Vanced v.13.43.50 Premium Pro Mod Apk [NON-ROOT]
         
                             Dark                                                             13.23.59                                                         All                                         API21                                         nodpi                                         dd72c3a5817605c8d541669a61be2315                     
         
-                            Black                                                             13.23.59                                                         All                                         API21                                         nodpi                                         ea608f22037ba6c699723b988da5cee3 <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2018/11/youtube-vanced-v134350-premium-pro-mod.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+                            Black                                                             13.23.59                                                         All                                         API21                                         nodpi                                         ea608f22037ba6c699723b988da5cee3 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2018/11/youtube-vanced-v134350-premium-pro-mod.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>

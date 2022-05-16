@@ -9,7 +9,7 @@ thumbnail: https://www.webmanajemen.com/assets/img/html.png
 cover: https://www.webmanajemen.com/assets/img/html.png
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2019/07/penulisan-symbol-html-entities.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Penulisan Symbol HTML Entities - h2>ASCII simbol</h2><table> <thead> <tr> <th nowrap=nowrap> Symbol </th> <th ASCII simbol
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2019/07/penulisan-symbol-html-entities.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Penulisan Symbol HTML Entities - h2>ASCII simbol</h2><table> <thead> <tr> <th nowrap=nowrap> Symbol </th> <th ASCII simbol
             
                             Symbol                                         Entity Name                                         Entity Number                                         Description                     
                 
@@ -111,4 +111,4 @@ cover: https://www.webmanajemen.com/assets/img/html.png
         
                             ♥                                         &hearts;                                         &#9829;                                         Heart                     
         
-                            ♦                                         &diams;                                         &#9830;                                         Diamond <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2019/07/penulisan-symbol-html-entities.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+                            ♦                                         &diams;                                         &#9830;                                         Diamond <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com) Skip to Full Contents <a href="https://www.webmanajemen.com/2019/07/penulisan-symbol-html-entities.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
