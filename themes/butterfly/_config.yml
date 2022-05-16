@@ -271,7 +271,7 @@ comments:
 # disqus
 # https://disqus.com/
 disqus:
-  shortname:
+  shortname: dimaslanjaka
   apikey: # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
