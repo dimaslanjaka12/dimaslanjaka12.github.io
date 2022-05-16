@@ -1,0 +1,54 @@
+title: Sharing
+subtitle: "A fast, simple & powerful blog framework powered by Node.js."
+description: "Hexo is a fast, simple & powerful blog framework powered by Node.js."
+author: Dimas Lanjaka
+language: en
+timezone: "Asia/Jakarta"
+
+url: https://dimaslanjaka12.github.io
+root: /
+permalink: :title.html
+new_post_name: :title.md # File name of new posts
+post_asset_folder: true
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+
+# https://github.com/hexojs/hexo-util
+# https://hexo.io/docs/syntax-highlight.html
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace: "  " # replace tabs with 2 spaces
+  wrap: false
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ""
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+per_page: 0
+index_generator:
+  path: ""
+  per_page: 0
+  order_by: -date #updated | date
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+
+theme: butterfly
