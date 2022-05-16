@@ -35,10 +35,9 @@
     "line_number": true,
     "tab_replace": ""
   },
-  "per_page": 0,
   "index_generator": {
     "path": "",
-    "per_page": 0,
+    "per_page": 5,
     "order_by": "-date"
   },
   "theme": "butterfly"
