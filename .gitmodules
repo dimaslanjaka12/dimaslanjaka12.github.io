@@ -1,0 +1,4 @@
+[submodule ".deploy_git"]
+	path = .deploy_git
+	url = https://github.com/dimaslanjaka12/dimaslanjaka12.github.io
+	branch = gh-pages
