@@ -4,7 +4,8 @@
   "description": "sharer",
   "main": "index.js",
   "scripts": {
-    "build": "hexo generate"
+    "build": "hexo generate",
+    "format": "prettier -w tmp/*.html --parser html"
   },
   "repository": {
     "type": "git",
