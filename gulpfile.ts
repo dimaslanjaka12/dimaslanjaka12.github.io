@@ -18,11 +18,11 @@ if (!existsSync(destDir)) mkdirSync(destDir);
 
 gulp.task('parse', async () => {
   const redirect = (to: string) => {
-    return `<script>
-    if (location.host.includes('dimaslanjaka12')) {
-      location.replace('${to}');
-    }
-  </script>`;
+    const readRedirector = readFileSync(join(__dirname, config.source_dir, 'assets/redirect.js'), 'utf-8').replace(
+      '${to}',
+      to
+    );
+    return `<script>${readRedirector}</script>`;
   };
   const feed = await parser.parseURL('https://www.webmanajemen.com/rss.xml');
   //console.log(feed.title);
