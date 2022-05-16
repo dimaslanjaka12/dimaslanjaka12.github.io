@@ -9,7 +9,7 @@ thumbnail: https://miro.medium.com/max/309/1*5kaPMxO2svjJ5k34zOwmrg.png
 cover: https://miro.medium.com/max/309/1*5kaPMxO2svjJ5k34zOwmrg.png
 ---
 
-<hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html" rel="follow" class="button" id="read-more">Read More</a> <hr/> Recaptcha V3 Complete Code - Google recaptcha V3 support reload token without Reload Pages ## How to refresh token google recaptcha v3 (hidden recaptcha supported)
+<hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html) || <a href="https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Recaptcha V3 Complete Code - Google recaptcha V3 support reload token without Reload Pages ## How to refresh token google recaptcha v3 (hidden recaptcha supported)
 _Google recaptcha V3 support reload token without Reload Pages._
 
 reCaptcha V3 in an **invisible captcha**, it _automagically_ detects user behaviors and rate it, **no need to reload or user's direct interaction** with any UI.
@@ -58,4 +58,4 @@ FULL DEMO:
 
   See the Pen 
   Complete Google recaptcha v3 by dimas lanjaka (@dimaslanjaka)
-  on CodePen. <hr/> Skip to Full Contents <a href="https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html" rel="follow" class="button" id="read-more">Read More</a> <hr/>
+  on CodePen. <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html) || <a href="https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>

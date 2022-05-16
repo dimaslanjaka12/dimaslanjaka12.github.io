@@ -83,11 +83,13 @@ gulp.task('deploy', async () => {
   const publicDir = join(__dirname, config.public_dir);
   const deployDir = join(__dirname, '.deploy_git');
   await copyDir(publicDir, deployDir);
+  const nojeklyy = join(deployDir, '.nojekyll');
+  if (!existsSync(nojeklyy)) writeFileSync(nojeklyy, '');
 });
 
 async function copyDir(src: PathLike, dest: PathLike) {
   const entries = await FSP.readdir(src, { withFileTypes: true });
-  await FSP.mkdir(dest);
+  if (!existsSync(dest)) await FSP.mkdir(dest);
   for (const entry of entries) {
     const srcPath = join(src, entry.name);
     const destPath = join(dest, entry.name);
