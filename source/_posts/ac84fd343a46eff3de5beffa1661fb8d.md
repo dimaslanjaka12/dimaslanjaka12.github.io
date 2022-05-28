@@ -12,7 +12,7 @@ cover: http://botcrawl.com/wp-content/uploads/2012/04/toggle-arrow.png
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html) || <a href="https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Cara Membuat Google AdSense Shortcodes Untuk WordPress - Membuat Google AdSense Shortcodes Untuk WordPress Membuat Google AdSense Shortcodes Untuk WordPress
 Banyak blog dan situs WordPress menghasilkan keuntungan secara online dengan mengintegrasikan iklan yang menggunakan program Google AdSense. Iklan Ads <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html) || <a href="https://www.webmanajemen.com/2017/10/cara-membuat-google-adsense-shortcodes.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -39,4 +39,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

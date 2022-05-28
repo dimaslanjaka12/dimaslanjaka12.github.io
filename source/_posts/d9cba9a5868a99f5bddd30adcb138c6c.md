@@ -13,7 +13,7 @@ cover: https://res.cloudinary.com/dimaslanjaka/image/fetch/https://www.forbesind
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2022/03/list-of-latest-dofollow-blogs.html) || <a href="https://www.webmanajemen.com/2022/03/list-of-latest-dofollow-blogs.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> List of latest dofollow backlinks - In this post I want to share a list of dofollow blogs. Maybe it can help other beginner blogger friends, who happen to be still looking for backlinks from... **In this post I want to share a list of dofollow blogs.** Maybe it can help other beginner blogger friends, who happen to be still looking for backlinks from several blogs that follow the dofollow sy <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2022/03/list-of-latest-dofollow-blogs.html) || <a href="https://www.webmanajemen.com/2022/03/list-of-latest-dofollow-blogs.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -40,4 +40,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

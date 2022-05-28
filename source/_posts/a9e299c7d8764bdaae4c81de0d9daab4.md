@@ -12,7 +12,7 @@ cover: https://www.webmanajemen.com/GitHub/workflows/events.png
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/GitHub/workflows-events.html) || <a href="https://www.webmanajemen.com/GitHub/workflows-events.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> GitHub Workflow Events - Macam-macam events pada GitHub Workflows # Events yang memicu Github Workflow
 Anda dapat mengkonfigurasi alur kerja Anda untuk berjalan saat aktivitas tertentu di GitHub terjadi, pada waktu yang dijadwalkan, atau saat peristiwa di luar GitHu <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/GitHub/workflows-events.html) || <a href="https://www.webmanajemen.com/GitHub/workflows-events.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -39,4 +39,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

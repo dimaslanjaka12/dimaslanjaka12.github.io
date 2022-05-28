@@ -17,7 +17,7 @@ cover: https://imgcdn.000webhostapp.com/https/2.bp.blogspot.com/7aeda14f80b89ac1
 
   Mod yang akan mengubah awan lama GTA San Andreas Mobile menjadi awan baru berkualitas tinggi.  Mod ini berisi beberapa tekstur cloud baru berkualitas  <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html) || <a href="https://www.webmanajemen.com/2019/12/calm-clouds-v1-new-hd-clouds-gta-sa.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -44,4 +44,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

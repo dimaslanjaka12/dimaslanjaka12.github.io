@@ -14,7 +14,7 @@ cover: https://www.w3programmers.com/wp-content/uploads/2012/07/regex.jpg
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/RegExp/RegExp.html) || <a href="https://www.webmanajemen.com/RegExp/RegExp.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> What is RegExp - Posted on September 22, 2021 12:00 AM by Dimas Lanjaka RegExp Programming Regular Expression What Is Regular Expression ? Regular Expression (RegExp) a... ## What Is Regular Expression ?
 Regular Expression (RegExp) a sequence of symbols and characters expressing a string or pattern to be searched for within a longer piece of text. [Read More](https://en <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/RegExp/RegExp.html) || <a href="https://www.webmanajemen.com/RegExp/RegExp.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -41,4 +41,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

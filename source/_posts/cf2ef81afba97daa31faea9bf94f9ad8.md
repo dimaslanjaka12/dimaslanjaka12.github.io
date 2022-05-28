@@ -12,7 +12,7 @@ cover: https://res.cloudinary.com/dimaslanjaka/image/fetch/http://image.rexdl.co
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2018/07/kitty-in-box-148-apk-mod-download.html) || <a href="https://www.webmanajemen.com/2018/07/kitty-in-box-148-apk-mod-download.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Kitty in the Box 1.4.8 Apk Mod Download - Unduh langsung gratis versi terakhir Kitty in the Box Apk Android dari Rexdl. Beberapa kucing dilahirkan siap Unduh langsung gratis versi terakhir             Kitty in the Box         Apk Android dari Rexdl. Beberapa kucing dilahirkan siap meluncur ke dalam     kotak, tetapi yang lain membutuhkan bantuan Anda <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2018/07/kitty-in-box-148-apk-mod-download.html) || <a href="https://www.webmanajemen.com/2018/07/kitty-in-box-148-apk-mod-download.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -39,4 +39,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

@@ -14,7 +14,7 @@ _Google recaptcha V3 support reload token without Reload Pages._
 
 reCaptcha V3 in an **invisible captcha**, it _automagically_  <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html) || <a href="https://www.webmanajemen.com/2022/04/hidden-google-recaptcha-v3.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -41,4 +41,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

@@ -23,7 +23,7 @@ cover: https://imgcdn.000webhostapp.com/https/img.youtube.com/bb201229d7c52251d8
 
   Download Mp3 S <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/11/download-lagu-siti-badriah-lagi-syantik_24.html) || <a href="https://www.webmanajemen.com/2019/11/download-lagu-siti-badriah-lagi-syantik_24.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -50,4 +50,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

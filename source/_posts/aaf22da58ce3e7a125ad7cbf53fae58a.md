@@ -17,7 +17,7 @@ cover: https://res.cloudinary.com/dimaslanjaka/image/fetch/https://www.bagas31.c
 
    Web Development Indonesia - For some people, maybe this remote PC software is already familiar to you.  TeamViewer 10 Premium Full Crack is a remote PC software <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/11/teamviewer-10-premium-full-crack.html) || <a href="https://www.webmanajemen.com/2019/11/teamviewer-10-premium-full-crack.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -44,4 +44,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

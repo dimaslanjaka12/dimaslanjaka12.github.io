@@ -13,7 +13,7 @@ cover: https://www.webmanajemen.com/assets/img/html.png
             
                             Symbol                                         Entity Name                                         Entity Number                                   <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/07/penulisan-symbol-html-entities.html) || <a href="https://www.webmanajemen.com/2019/07/penulisan-symbol-html-entities.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -40,4 +40,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

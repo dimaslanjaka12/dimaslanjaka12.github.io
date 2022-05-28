@@ -12,7 +12,7 @@ cover: https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2018/07/buff-topping-pizza-durango-wild-lands.html) || <a href="https://www.webmanajemen.com/2018/07/buff-topping-pizza-durango-wild-lands.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Ulat, Lebah = Buff WIL  Tomat = Buff Memasak Bawang = Pengumpulan Tumbuhan Pisang = Produksi Tangan <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2018/07/buff-topping-pizza-durango-wild-lands.html) || <a href="https://www.webmanajemen.com/2018/07/buff-topping-pizza-durango-wild-lands.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -39,4 +39,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

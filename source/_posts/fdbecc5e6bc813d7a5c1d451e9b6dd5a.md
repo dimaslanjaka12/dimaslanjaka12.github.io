@@ -21,7 +21,7 @@ cover: https://imgcdn.000webhostapp.com/https/1.bp.blogspot.com/6c3cd06c80c24572
 
   .Dia hadir mod sepeda berwarna-warni untuk GTA SA Android.  Mod ini akan menggantikan bik "F <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2019/12/nueva-freeway-solo-bike-mod-dff-only.html) || <a href="https://www.webmanajemen.com/2019/12/nueva-freeway-solo-bike-mod-dff-only.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -48,4 +48,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->
