@@ -1,4 +1,6 @@
 import { extract } from 'article-parser';
+import { spawn, SpawnOptions } from 'child_process';
+import { deepmerge } from 'deepmerge-ts';
 import { existsSync, mkdirSync, PathLike, promises as FSP, readFileSync, writeFileSync } from 'fs';
 import gulp from 'gulp';
 import md5 from 'md5';
@@ -90,7 +92,13 @@ gulp.task('parse', async () => {
 
 gulp.task('default', async () => {
   gulp.series('parse')(() => {
-    gulp.series('deploy')(null);
+    gulp.series('deploy')(() => {
+      summon(null, 'hexo', 'generate').then(() => {
+        git('add', '-A').then(() => {
+          git('commit', '-m', 'site update ' + new Date());
+        });
+      });
+    });
   });
 });
 
@@ -116,4 +124,61 @@ async function copyDir(src: PathLike, dest: PathLike) {
       await FSP.copyFile(srcPath, destPath);
     }
   }
+}
+
+function git(...args: string[]) {
+  return new Promise(
+    (
+      resolve: (args: { code: number; stdout: string; stderr: string }) => any,
+      reject: (args: { args: string[]; err: Error }) => any
+    ) => {
+      const summon = spawn('git', args, {
+        cwd: join(__dirname, '.deploy_git'),
+        stdio: 'inherit'
+      });
+      summon.on('close', function (code) {
+        // Should probably be 'exit', not 'close'
+        // *** Process completed
+        return resolve({ code: code, stdout: String(summon.stdout), stderr: String(summon.stderr) });
+      });
+      summon.on('error', function (err) {
+        // *** Process creation failed
+        return reject({ args: args, err: err });
+      });
+    }
+  );
+}
+
+function summon(options?: SpawnOptions, ...args: string[]) {
+  return new Promise(
+    (
+      resolve: (args: { code: number; stdout: string; stderr: string }) => any,
+      reject: (args: { args: string[]; err: Error }) => any
+    ) => {
+      if (!options) options = {};
+      const cmd = args[0];
+      args.shift();
+      const param = args;
+      const summon = spawn(
+        cmd,
+        param,
+        deepmerge(
+          {
+            cwd: __dirname,
+            stdio: 'inherit'
+          },
+          options
+        )
+      );
+      summon.on('close', function (code) {
+        // Should probably be 'exit', not 'close'
+        // *** Process completed
+        return resolve({ code: code, stdout: String(summon.stdout), stderr: String(summon.stderr) });
+      });
+      summon.on('error', function (err) {
+        // *** Process creation failed
+        return reject({ args: args, err: err });
+      });
+    }
+  );
 }

@@ -20,6 +20,8 @@ export const parseArticle = async (url: any) => {
   const html = await getHTML(url);
   const article = await extract(html);
   const otherData = await customParser(html);
-  return deepmerge(article, otherData);
+  const type = Object.assign(article, otherData);
+  return deepmerge(article, otherData) as typeof type;
 };
+
 export default parseArticle;
