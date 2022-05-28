@@ -16,7 +16,7 @@ cover: http://www.larnr.com/wp-content/uploads/2015/05/resize-crop-1024x535.jpg
 
 When we have a tendency to visit the gallery page of an internet site we primarily see there area unit 2 varieties of image f <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html) || <a href="https://www.webmanajemen.com/2017/05/how-to-resize-and-crop-image-to-fit.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -43,4 +43,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

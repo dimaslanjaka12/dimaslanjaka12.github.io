@@ -13,7 +13,7 @@ cover: https://res.cloudinary.com/dimaslanjaka/image/fetch/https://lh6.googleuse
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html) || <a href="https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> Cara ping mesin pencari dengan curl - Ketika Anda menambahkan cerita baru atau memperbarui yang sudah ada, mungkin perlu beberapa minggu bagi bot mesin pencari untuk mengindeks ulang situs... Ketika Anda menambahkan cerita baru atau memperbarui yang sudah ada, mungkin perlu beberapa minggu bagi bot mesin pencari untuk mengindeks ulang situs Anda, namun saya mengetahui bahwa beberapa situs  <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html) || <a href="https://www.webmanajemen.com/2017/07/cara-ping-mesin-pencari-dengan-curl.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -40,4 +40,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

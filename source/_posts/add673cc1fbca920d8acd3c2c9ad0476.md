@@ -18,7 +18,7 @@ cover: https://4.bp.blogspot.com/-DhtbWc4gbkI/V-LrKhHdxvI/AAAAAAAAARI/u-a3KwShRl
         Use Schema Markup - Boost Your SEO     
 Be it Google or the other search engine, all of them need to know,         howev <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/05/how-to-fix-structured-data-errors-in-blogger.html) || <a href="https://www.webmanajemen.com/2017/05/how-to-fix-structured-data-errors-in-blogger.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -45,4 +45,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->

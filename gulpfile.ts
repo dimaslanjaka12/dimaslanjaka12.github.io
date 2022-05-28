@@ -32,7 +32,7 @@ gulp.task('parse', async () => {
       metadata: {
         title: '',
         description: '',
-        author: 'dimaslanjaka@gmail.com (Dimas lanjaka)',
+        author: 'Dimas Lanjaka <dimaslanjaka@gmail.com> (https://www.webmanajemen.com)',
         url: '',
         date: String(new Date()),
         updated: String(new Date()),
@@ -79,12 +79,18 @@ gulp.task('parse', async () => {
       } catch (error) {
         console.log(error);
       } finally {
-        buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}\n\n${redirect(item.link)}`;
+        buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}\n\n<!--${redirect(item.link)}-->`;
         const saveTo = join(destDir, md5(parseUrl.pathname) + '.md');
         writeFileSync(saveTo, buildPost);
       }
     }
   }
+});
+
+gulp.task('default', async () => {
+  gulp.series('parse')(() => {
+    gulp.series('deploy')(null);
+  });
 });
 
 gulp.task('deploy', async () => {

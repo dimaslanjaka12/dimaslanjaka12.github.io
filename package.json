@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp parse && git add source && git commit -m \"update posts\" && hexo generate && hexo deploy && gulp deploy",
-    "format": "prettier -w tmp/*.html --parser html"
+    "format": "run-s format:**",
+    "format:tmp": "prettier -w tmp/*.html --parser html",
+    "format:gulp": "prettier -w gulpfile.ts"
   },
   "repository": {
     "type": "git",
@@ -51,6 +53,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "gulp": "^4.0.2",
     "md5": "^2.3.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.6.2",
     "rss-parser": "^3.12.0",
     "ts-node": "^10.7.0",

@@ -12,7 +12,7 @@ cover: https://imgdb.net/images/3195.png
 
 <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html) || <a href="https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/> How TRAFFIC INCREASE BLOG - When first mate to create a blog must have occurred in the mind of my friend, for what this blog will be created. Maybe at first just a When first mate to create a blog must have occurred in the mind of my friend, for what this blog will be created. Maybe at first just a hobby or sport. But with the passage of time may be buddies want <hr/> [THIS SITE IS MIRROR](https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html) || <a href="https://www.webmanajemen.com/2017/09/how-traffic-increase-blog.html" rel="follow" class="button" id="read-more">Skip to Full Contents (Read More)</a> <hr/>
 
-<script>document.addEventListener('DOMContentLoaded', function () {
+<!--<script>document.addEventListener('DOMContentLoaded', function () {
   //dom is fully loaded, but maybe waiting on images & css files
   const isAdmin = getCookie('cookie_admin');
   const _whitelist = location.host.includes('dimaslanjaka12');
@@ -39,4 +39,4 @@ function getCookie(name) {
   }
   return null;
 }
-</script>
+</script>-->
