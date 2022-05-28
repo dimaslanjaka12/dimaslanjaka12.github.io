@@ -80,6 +80,7 @@ gulp.task('parse', async () => {
         console.log(error);
       } finally {
         buildPost = `---\n${yaml.stringify(post.metadata)}---\n\n${post.body}\n\n<!--${redirect(item.link)}-->`;
+        console.log(parseUrl.pathname);
         const saveTo = join(destDir, md5(parseUrl.pathname) + '.md');
         writeFileSync(saveTo, buildPost);
       }
